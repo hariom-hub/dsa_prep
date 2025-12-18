@@ -11,17 +11,18 @@ public class Char_hash {
 
         int n = s.length();
 
-        int[] hash = new int[26];
+        int[] hash = new int[256]; // total no. of chars = 256
 
         // precompute
         for (int i = 0; i < n; i++) {
-            hash[s.charAt(i) - 'a']++;
+            hash[s.charAt(i)]++; 
+            //auto castes into an integer
         }
 
         int query = sc.nextInt();
         while (query-- > 0) {
             char ch = sc.next().charAt(0);
-            System.out.println(hash[ch-'a']);
+            System.out.println(hash[ch]);
         }
     }
 }
