@@ -62,7 +62,7 @@ for (int i = 0; i < n; i++) {
     }
 }
 
-Algorithm,Best Case,Average Case,Worst Case,Space,Stable?
-Selection,O(N2),O(N2),O(N2),O(1),No
-Bubble,O(N)*,O(N2),O(N2),O(1),Yes
-Insertion,O(N),O(N2),O(N2),O(1),Yes
+Algorithm	Best Case	Average Case	Worst Case	Space	Stable?
+Selection	O(N2)	      O(N2)	         O(N2)  	 O(1)	 No
+Bubble	    O(N)*	      O(N2)	         O(N2)	     O(1)	 Yes
+Insertion	O(N)	      O(N2)	         O(N2)	     O(1)	 Yes
