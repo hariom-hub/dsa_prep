@@ -2,7 +2,7 @@ package hashing;
 
 import java.util.*;
 
-public class hash {
+public class hash_arr {
 
     public static void main(String[] args) {
 
@@ -21,10 +21,9 @@ public class hash {
         }
 
         int q = sc.nextInt();
-        while (q > 0) {
+        while (q --> 0) {
             int q_nums = sc.nextInt();
             System.out.println(hash[q_nums]);
-            q--;
         }
 
     }

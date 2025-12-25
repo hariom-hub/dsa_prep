@@ -21,7 +21,9 @@ public class Char_hash {
 
         int query = sc.nextInt();
         while (query-- > 0) {
-            char ch = sc.next().charAt(0);
+            int i=0;
+            String query_string = sc.nextLine();
+            char ch = query_string.charAt(i);
             System.out.println(hash[ch]);
         }
     }
