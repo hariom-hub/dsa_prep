@@ -1,4 +1,4 @@
-package dsa_prep.oops;
+package oops;
 
 public class inheritance {
 
@@ -51,6 +51,7 @@ public class inheritance {
         // obj.about("jec jabalpur");
 
         college obj = new inheritance().new college();
+        
 
     }
 

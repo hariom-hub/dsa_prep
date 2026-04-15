@@ -1,5 +1,5 @@
 // abstraction implementation in java using abstract class AND interfaces
-package dsa_prep.oops;
+package oops;
 
 public class abstraction {
 

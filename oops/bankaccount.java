@@ -1,4 +1,4 @@
-package dsa_prep.oops;
+package oops;
 public class bankaccount {
 
 
