@@ -1,4 +1,4 @@
-package cses_problemset;
+
 import java.util.*;
 
 public class weirdAlgorithm {
