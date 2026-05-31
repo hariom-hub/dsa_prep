@@ -38,6 +38,10 @@ public class cptemplate {
                return Double.parseDouble(next());
           }
 
+          float nextFloat(){
+               return Float.parseFloat(next());
+          }
+
           String nextLine() {
                String str = "";
                try {
